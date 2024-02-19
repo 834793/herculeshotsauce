@@ -1,2 +1,0 @@
-# herculeshotsauce
-Hercules Hot Sauce
