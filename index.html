@@ -10,31 +10,31 @@
             margin: 0;
             padding: 0;
         }
+        header, .footer {
+            background-color: #f33738;
+            color: white;
+            padding: 10px 20px;
+        }
         header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px;
             position: fixed;
-            background-color: #f33738;
-            color: white;
-        }
-        .logo {
-            max-height: 100px;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
         nav {
             display: flex;
-             align-items: center;
+            align-items: center;
         }
         nav a {
             margin: 0 15px;
             color: white;
-            text-decoration: none; 
+            text-decoration: none;
         }
         section {
-            align-items: center;
             padding: 20px;
-            
         }
         h2 {
             color: #f33738;
@@ -47,16 +47,14 @@
             margin: 20px 0;
         }
         .image-container {
-            text-align: center; 
+            text-align: center;
+            margin-top: 20px;
         }
         .image-container img {
-            width: 300px; 
-            margin: 10px; 
+            width: 300px;
+            margin: 10px;
         }
-        .footer {
-            background-color: #f33738;
-            color: white;
-            padding: 20px;
+        .center {
             text-align: center;
         }
     </style>
@@ -72,49 +70,38 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
-     
+    
     <section id="story">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
         <h2>About</h2>
-        <p>A fiery mix of sweet flavors and intense heat that'll make your taste buds howl! Our handpicked habanero peppers are grown with love and a touch of madness. Each bottle is a work of art, blending just the right amount of mango and spice to give any dish both bite and bark.
-    <div class="image-container">
-        <img src="1.png" alt="Image 1">
-        <img src="2.png" alt="Image 2">
-    </div>
-Whether you're drizzling it on tacos, spicing up your wings and pizzas, stirring it in sauces, or kicking your breakfast up a notch with scrambled eggs, this sauce does it all. Brace yourself for a taste that's running wild - Hercules Habanero Hot Sauce will have you begging for more!</p>
-        
-    <div class="image-container">
-        <img src="3.png" alt="Image 3">
-        <img src="4.png" alt="Image 4">
-    </div>
-     <div class="section-divider"></div>
+        <p>A fiery mix of sweet flavors and intense heat that'll make your taste buds howl! Our handpicked habanero peppers are grown with love and a touch of madness. Each bottle is a work of art, blending just the right amount of mango and spice to give any dish both bite and bark.</p>
+        <div class="image-container">
+            <img src="1.png" alt="Image 1">
+            <img src="2.png" alt="Image 2">
+        </div>
+        <p>Whether you're drizzling it on tacos, spicing up your wings and pizzas, stirring it in sauces, or kicking your breakfast up a notch with scrambled eggs, this sauce does it all. Brace yourself for a taste that's running wild - Hercules Habanero Hot Sauce will have you begging for more!</p>
+        <div class="image-container">
+            <img src="3.png" alt="Image 3">
+            <img src="4.png" alt="Image 4">
+        </div>
+        <div class="section-divider"></div>
     </section>
+    
     <section id="products">
         <h2>Our Products</h2>
-    <center> 
-        <p>
-        <img src="5.jpg" alt="Howlin Habanero" style="display: block; margin:0
-        auto;">
-        <b> Out of Stock </b> </center>
-        </p>
-    </center>
+        <div class="center">
+            <img src="5.jpg" alt="Howlin Habanero">
+            <p><b>Out of Stock</b></p>
+        </div>
         <div class="section-divider"></div>
     </section>
 
-     <section id="contact">
-          <h2>Contact</h2>
-        <p>For further information and the purchasing of our products, please email us as info@herculeshotsauce.com</p>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>For further information and the purchasing of our products, please email us at <a href="mailto:info@herculeshotsauce.com">info@herculeshotsauce.com</a>.</p>
     </section>
     
-<div class="footer">
-   <p>Feel free to reach out to us on @hotsauceherc on Instagram, Facebook, Twitter, and TikTok </p>
-</div>
+    <footer class="footer">
+        <p>Feel free to reach out to us on @hotsauceherc on Instagram, Facebook, Twitter, and TikTok.</p>
+    </footer>
 </body>
-</html> 
+</html>
