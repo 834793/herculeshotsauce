@@ -14,7 +14,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 20px;
+            padding: 15px 20px; /* Increased padding */
             background-color: #f33738;
             color: white;
             position: fixed;
@@ -23,7 +23,7 @@
             z-index: 1000;
         }
         .logo {
-            max-height: 50px;
+            max-height: 70px; /* Adjusted logo size */
         }
         nav {
             display: flex;
@@ -33,10 +33,11 @@
             margin: 0 15px;
             color: white;
             text-decoration: none; 
+            font-size: 18px; /* Adjusted font size */
         }
         section {
             padding: 20px;
-            margin-top: 80px; /* Adjusted to push content below header */
+            margin-top: 90px; /* Adjusted margin to accommodate header */
         }
         h2 {
             color: #f33738;
@@ -63,6 +64,11 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+            z-index: 1000; /* Ensure footer is above other content */
+        }
+        /* Add margin-bottom to last section */
+        #contact {
+            margin-bottom: 80px;
         }
     </style>
 </head>
@@ -96,22 +102,20 @@
     
     <section id="products">
         <h2>Our Products</h2>
-        <center> 
-            <p>
-                <img src="5.jpg" alt="Howlin Habanero" style="display: block; margin:0 auto;">
-                <b>Out of Stock</b>
-            </p>
-        </center>
+        <div class="center">
+            <img src="5.jpg" alt="Howlin Habanero" style="display: block; margin:0 auto;">
+            <p><b>Out of Stock</b></p>
+        </div>
         <div class="section-divider"></div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>For further information and the purchasing of our products, please email us as info@herculeshotsauce.com</p>
+        <p>For further information and the purchasing of our products, please email us at <a href="mailto:info@herculeshotsauce.com">info@herculeshotsauce.com</a>.</p>
     </section>
     
     <div class="footer">
-        <p>Feel free to reach out to us on @hotsauceherc on Instagram, Facebook, Twitter, and TikTok </p>
+        <p>Feel free to reach out to us on @hotsauceherc on Instagram, Facebook, Twitter, and TikTok</p>
     </div>
 </body>
 </html>
