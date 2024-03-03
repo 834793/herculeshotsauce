@@ -46,11 +46,17 @@
             margin: 20px 0;
         }
         .image-container {
-            text-align: center; /* Center the images horizontally */
+            text-align: center;
         }
         .image-container img {
-            width: 150px; /* Adjust the width of the images */
-            margin: 10px; /* Add some margin around the images */
+            width: 150px;
+            margin: 10px;
+        }
+        @media screen and (max-width: 600px) {
+        .image-container img {
+                display: block; /* Display images as blocks to stack vertically */
+                margin: 10px auto; /* Center images horizontally */
+            }
         }
     </style>
 </head>
