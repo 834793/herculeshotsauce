@@ -34,11 +34,24 @@
             color: white;
             text-decoration: none; 
             font-size: 18px; 
-        }
-        section {
-            padding: 20px;
-            margin-top: 120px;
-        }
+section {
+    padding: 20px;
+    margin-top: 120px;
+}
+
+.center {
+    text-align: center;
+}
+
+.center img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.center p {
+    margin-top: 10px; /* Adjust as needed */
+}
 
         h2 {
             color: #f33738;
@@ -101,14 +114,14 @@
         <div class="section-divider"></div>
     </section>
     
-    <section id="products">
-        <h2>Our Products</h2>
-        <div class="center">
-            <img src="5.png" alt="Howlin Habanero" style="display: block; margin:0 auto;">
-            <p><b>Out of Stock</b></p>
-        </div>
-        <div class="section-divider"></div>
-    </section>
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="center">
+        <img src="5.png" alt="Howlin Habanero" style="display: block; margin: 0 auto; max-width: 50%;">
+        <p><b>Out of Stock</b></p>
+    </div>
+    <div class="section-divider"></div>
+</section>
 
     <section id="contact">
         <h2>Contact</h2>
